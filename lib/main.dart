@@ -30,7 +30,7 @@ class KlondikeGame extends FlameGame {
   @override
   Future<void> onLoad() async {
     // 게임 초기화 시 실행되는 메서드
-    // await Flame.images.load('klondike-sprites.png');
+    await Flame.images.load('klondike-sprites.png');
 
     // 덱을 놓는 영역(Stock) 생성 및 위치 설정
     final stock =
